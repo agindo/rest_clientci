@@ -5,7 +5,7 @@ Class Mahasiswa extends CI_Controller{
     
     function __construct() {
         parent::__construct();
-        $this->API="http://localhost/rest_server/index.php";
+        $this->API="http://localhost/rest_serverci/index.php";
     }
     
     // menampilkan data mahasiswa
